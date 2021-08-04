@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  margin: 5rem;
+  height: 78vh;
+  border: 22px solid #c2c2c2;
+  border-radius: 31px;
+  display: grid;
+  grid-template-columns: 2fr 80%;
+}
+
+.App main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 775px) {
+  .App {
+    height: 100vh;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 3fr;
+  }
+}

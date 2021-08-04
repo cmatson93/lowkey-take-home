@@ -1,0 +1,32 @@
+button {
+  height: 56px;
+  max-width: 260px;
+  background: none;
+  border: none;
+  border-radius: 12px;
+  color: #f8f9fa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.selected {
+  height: 100%;
+  width: 100%;
+  max-width: 260px;
+  background: none;
+  border: none;
+  border-radius: 12px;
+  position: absolute;
+  z-index: -1;
+  left: -2px;
+}
+
+span {
+  margin-right: 22px;
+}
